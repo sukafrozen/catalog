@@ -139,7 +139,7 @@ const ContactUs = () => {
               <div className="col-xl-12 wow fadeInUp" data-wow-duration="1s">
                 <div className="fp__contact_map">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15869.330256479981!2d106.151862!3d-6.0858185!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418bd46aae685d%3A0x7b96d98799d96f1e!2sSuka%20Frozen%20Food%20Serang!5e0!3m2!1sen!2sid!4v1706464215675!5m2!1sen!2sid"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15869.334042242548!2d106.1515542!3d-6.0856903!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418bd46aae685d%3A0x7b96d98799d96f1e!2sSuka%20Frozen%20Food%20Serang!5e0!3m2!1sen!2sid!4v1706464775486!5m2!1sen!2sid"
                     allowFullScreen=""
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
@@ -158,7 +158,8 @@ const ContactUs = () => {
               <div className="col-12">
                 <div className="fp__footer_bottom_text d-flex flex-wrap justify-content-between">
                   <p>
-                    Copyright &copy; 2024 <b>SukaFrozen</b> All Rights Reserved.
+                    Copyright &copy; {new Date().getFullYear()}{" "}
+                    <b>SukaFrozen</b> All Rights Reserved.
                   </p>
                 </div>
               </div>
