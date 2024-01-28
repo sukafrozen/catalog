@@ -38,7 +38,10 @@ const ContactUs = () => {
       <section className="fp__contact mb-5">
         <div className="container">
           <div className="row">
-            <div className="col-xl-4 col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="1s">
+            <div
+              className="col-xl-4 col-md-6 col-lg-4 wow fadeInUp"
+              data-wow-duration="1s"
+            >
               <div className="fp__contact_info">
                 <span>
                   <i className="fab fa-whatsapp"></i>
@@ -49,7 +52,10 @@ const ContactUs = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="1s">
+            <div
+              className="col-xl-4 col-md-6 col-lg-4 wow fadeInUp"
+              data-wow-duration="1s"
+            >
               <div className="fp__contact_info">
                 <span>
                   <i className="fal fa-envelope"></i>
@@ -61,14 +67,19 @@ const ContactUs = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="1s">
+            <div
+              className="col-xl-4 col-md-6 col-lg-4 wow fadeInUp"
+              data-wow-duration="1s"
+            >
               <div className="fp__contact_info">
                 <span>
                   <i className="fas fa-street-view"></i>
                 </span>
                 <div className="text">
                   <h3>location</h3>
-                  <p>Harmony Residence 2 Blok E no 7, Kasemen Serang - Banten</p>
+                  <p>
+                    Harmony Residence 2 Blok E no 7, Kasemen Serang - Banten
+                  </p>
                 </div>
               </div>
             </div>
@@ -128,7 +139,7 @@ const ContactUs = () => {
               <div className="col-xl-12 wow fadeInUp" data-wow-duration="1s">
                 <div className="fp__contact_map">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.339403634269!2d106.1469528749893!3d-6.084891993901315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418b1d5d17e3e9%3A0xadb4cd954e4b1bbf!2sHarmony%20Residence%202%20Kasemen!5e0!3m2!1sen!2sid!4v1705912952993!5m2!1sen!2sid"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15869.329299691217!2d106.1519371!3d-6.0858509!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418bd46aae685d%3A0x7b96d98799d96f1e!2sSuka%20Frozen%20Food%20Serang!5e0!3m2!1sen!2sid!4v1706462962044!5m2!1sen!2sid"
                     allowFullScreen=""
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
