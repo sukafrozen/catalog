@@ -11,12 +11,12 @@ const ContactUs = () => {
             </div>
             <div className="text-center mt-4">
               <a
-                href="https://wa.me/6289644439032?text=Hallo%20suka%20frozen%20saya%20ingin%20memesan%20.%20.%20.%20."
+                href="https://wa.me/6289654980569?text=Hallo%20suka%20frozen%20saya%20ingin%20memesan%20.%20.%20.%20."
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn btn-light"
               >
-                <i className="fab fa-whatsapp me-1"></i> +62 897 1234 567
+                <i className="fab fa-whatsapp me-1"></i> +62 8965 4980 569
               </a>
             </div>
           </div>
@@ -45,8 +45,7 @@ const ContactUs = () => {
                 </span>
                 <div className="text">
                   <h3>WhatsApp</h3>
-                  <p>+62 896 7108 5949</p>
-                  <p>+62 896 4443 9032</p>
+                  <p>+62 8965 4980 569</p>
                 </div>
               </div>
             </div>
@@ -57,8 +56,8 @@ const ContactUs = () => {
                 </span>
                 <div className="text">
                   <h3>mail</h3>
-                  <p>cs@sukafrozen.co.id</p>
-                  <p>example@gmail.com</p>
+                  <p>admin@sukafrozen.my.id</p>
+                  <p>cs@sukafrozen.my.id</p>
                 </div>
               </div>
             </div>
@@ -69,7 +68,7 @@ const ContactUs = () => {
                 </span>
                 <div className="text">
                   <h3>location</h3>
-                  <p>Harmony Residence 2 RT.005 RW.003 Kasemen, Serang - Banten</p>
+                  <p>Harmony Residence 2 Blok E no 7, Kasemen Serang - Banten</p>
                 </div>
               </div>
             </div>

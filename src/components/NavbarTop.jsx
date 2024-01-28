@@ -7,16 +7,16 @@ const NavbarTop = () => {
             <ul className="fp__topbar_info d-flex flex-wrap">
               <li>
                 <a href="mailto:example@gmail.com">
-                  <i className="fas fa-envelope"></i> cs@sukafrozen.com
+                  <i className="fas fa-envelope"></i> admin@sukafrozen.my.id
                 </a>
               </li>
               <li>
                 <a
-                  href="https://wa.me/6289644439032?text=Hallo%20suka%20frozen%20saya%20ingin%20memesan%20.%20.%20.%20."
+                  href="https://wa.me/6289654980569?text=Hallo%20suka%20frozen%20saya%20ingin%20memesan%20.%20.%20.%20."
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <i className="fab fa-whatsapp"></i>+62896123456
+                  <i className="fab fa-whatsapp"></i>+62 8965 4980 569
                 </a>
               </li>
             </ul>

@@ -75,7 +75,7 @@ const ModalProduk = () => {
                         <li>
                           <a
                             className="common_btn"
-                            href={`https://wa.me/6289671087959/?text=Halo%20suka%20frozen%2C%20saya%20ingin%20memesan%20produk%20%0ANama%20Saya%20%3A...%20%0AAlamat%20saya%20%3A...%20%20%0AProduk%20%3A%20${
+                            href={`https://wa.me/6289654080569/?text=Halo%20suka%20frozen%2C%20saya%20ingin%20memesan%20produk%20%0ANama%20Saya%20%3A...%20%0AAlamat%20saya%20%3A...%20%20%0AProduk%20%3A%20${
                               produk.nama
                             }%0AQuantity%20%3A%20${quantity}%0ATotal%20harga%20%3A%20Rp ${produk.hargaFix * quantity}`}
                             target="_blank"
