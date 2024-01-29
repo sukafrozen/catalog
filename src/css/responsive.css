@@ -2020,12 +2020,12 @@
   }
 
   .fp__menu_cart_area ul li .menu_cart_text {
-    width: 65%;
+    width: 70%;
     padding-left: 10px;
   }
 
   .fp__menu_cart_area ul {
-    max-height: 70vh;
+    max-height: 69vh;
   }
 
   /* menu end */
