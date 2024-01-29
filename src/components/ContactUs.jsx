@@ -38,10 +38,7 @@ const ContactUs = () => {
       <section className="fp__contact mb-5">
         <div className="container">
           <div className="row">
-            <div
-              className="col-xl-4 col-md-6 col-lg-4 wow fadeInUp"
-              data-wow-duration="1s"
-            >
+            <div className="col-xl-4 col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="1s">
               <div className="fp__contact_info">
                 <span>
                   <i className="fab fa-whatsapp"></i>
@@ -52,10 +49,7 @@ const ContactUs = () => {
                 </div>
               </div>
             </div>
-            <div
-              className="col-xl-4 col-md-6 col-lg-4 wow fadeInUp"
-              data-wow-duration="1s"
-            >
+            <div className="col-xl-4 col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="1s">
               <div className="fp__contact_info">
                 <span>
                   <i className="fal fa-envelope"></i>
@@ -67,74 +61,19 @@ const ContactUs = () => {
                 </div>
               </div>
             </div>
-            <div
-              className="col-xl-4 col-md-6 col-lg-4 wow fadeInUp"
-              data-wow-duration="1s"
-            >
+            <div className="col-xl-4 col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="1s">
               <div className="fp__contact_info">
                 <span>
                   <i className="fas fa-street-view"></i>
                 </span>
                 <div className="text">
                   <h3>location</h3>
-                  <p>
-                    Harmony Residence 2 Blok E no 7, Kasemen Serang - Banten
-                  </p>
+                  <p>Harmony Residence 2 Blok E no 7, Kasemen Serang - Banten</p>
                 </div>
               </div>
             </div>
           </div>
           <div className="fp__contact_form_area mt_100 xs_mt_70">
-            <div className="row">
-              <div className="col-xl-12 wow fadeInUp" data-wow-duration="1s">
-                <form className="fp__contact_form">
-                  <h3>contact</h3>
-                  <div className="row">
-                    <div className="col-xl-6 col-lg-6">
-                      <div className="fp__contact_form_input">
-                        <span>
-                          <i className="fal fa-user-alt"></i>
-                        </span>
-                        <input type="text" placeholder="Name" />
-                      </div>
-                    </div>
-                    <div className="col-xl-6 col-lg-6">
-                      <div className="fp__contact_form_input">
-                        <span>
-                          <i className="fal fa-envelope"></i>
-                        </span>
-                        <input type="email" placeholder="Email" />
-                      </div>
-                    </div>
-                    <div className="col-xl-6 col-lg-6">
-                      <div className="fp__contact_form_input">
-                        <span>
-                          <i className="fal fa-phone-alt"></i>
-                        </span>
-                        <input type="text" placeholder="Phone" />
-                      </div>
-                    </div>
-                    <div className="col-xl-6 col-lg-6">
-                      <div className="fp__contact_form_input">
-                        <span>
-                          <i className="fal fa-book"></i>
-                        </span>
-                        <input type="text" placeholder="Subject" />
-                      </div>
-                    </div>
-                    <div className="col-xl-12">
-                      <div className="fp__contact_form_input textarea">
-                        <span>
-                          <i className="fal fa-book"></i>
-                        </span>
-                        <textarea rows="8" placeholder="Message"></textarea>
-                      </div>
-                      <button type="submit">send message</button>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
             <div className="row mt_100 xs_mt_70">
               <div className="col-xl-12 wow fadeInUp" data-wow-duration="1s">
                 <div className="fp__contact_map">
@@ -158,8 +97,7 @@ const ContactUs = () => {
               <div className="col-12">
                 <div className="fp__footer_bottom_text d-flex flex-wrap justify-content-between">
                   <p>
-                    Copyright &copy; {new Date().getFullYear()}{" "}
-                    <b>SukaFrozen</b> All Rights Reserved.
+                    Copyright &copy; {new Date().getFullYear()} <b>SukaFrozen</b> All Rights Reserved.
                   </p>
                 </div>
               </div>

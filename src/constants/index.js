@@ -1,4 +1,13 @@
-import { champ500, champ250, champ1kg, sosisgeboy1kg, sosissedap1kg, sosisChamp1kg, kentangFiesta1kg, kentangAviko1kg } from "../assets/images";
+import {
+  champ500,
+  champ250,
+  champ1kg,
+  sosisgeboy1kg,
+  sosissedap1kg,
+  sosisChamp1kg,
+  kentangFiesta1kg,
+  kentangAviko1kg,
+} from "../assets/images";
 
 export const categoryProduct = [
   { id: 1, nama: "nugget", class: ".nugget" },
@@ -21,7 +30,6 @@ export const daftarProduct = [
     masaPenyimpanan: "12 Bulan",
     berat: "250GR",
     stok: 150,
-    link: "https://wa.me/6289644439032?text=Hallo%20suka%20frozen%20saya%20ingin%20memesan%20chiken%20nugget%20champ%20250g%20.%20.%20.",
   },
   {
     id: 2,
@@ -37,7 +45,6 @@ export const daftarProduct = [
     masaPenyimpanan: "12 Bulan",
     berat: "500GR",
     stok: 92,
-    link: "https://wa.me/6289644439032?text=Hallo%20suka%20frozen%20saya%20ingin%20memesan%20chiken%20nugget%20champ%20500g%20.%20.%20.",
   },
   {
     id: 3,
@@ -53,7 +60,6 @@ export const daftarProduct = [
     masaPenyimpanan: "12 Bulan",
     berat: "1000GR",
     stok: 80,
-    link: "https://wa.me/6289644439032?text=Hallo%20suka%20frozen%20saya%20ingin%20memesan%20chiken%20nugget%20champ%201KG%20.%20.%20.",
   },
 
   // Sosis
@@ -71,7 +77,6 @@ export const daftarProduct = [
     masaPenyimpanan: "12 Bulan",
     berat: "1000GR",
     stok: 80,
-    link: "https://wa.me/6289644439032?text=Hallo%20suka%20frozen%20saya%20ingin%20memesan%20sosis%20geboy%201kg%20.%20.%20.",
   },
   {
     id: 5,
@@ -87,7 +92,6 @@ export const daftarProduct = [
     masaPenyimpanan: "12 Bulan",
     berat: "1000GR",
     stok: 40,
-    link: "https://wa.me/6289644439032?text=Hallo%20suka%20frozen%20saya%20ingin%20memesan%20sosis%20sedap%201kg%20.%20.%20.",
   },
   {
     id: 6,
@@ -103,13 +107,12 @@ export const daftarProduct = [
     masaPenyimpanan: "12 Bulan",
     berat: "1000GR",
     stok: 50,
-    link: "https://wa.me/6289644439032?text=Hallo%20suka%20frozen%20saya%20ingin%20memesan%20sosis%20champ%201kg%20.%20.%20.",
   },
 
   // kentang
   {
     id: 7,
-    kategori: "kentang",
+    kategori: "lainnya",
     nama: "kentang 1KG",
     imgURL: kentangFiesta1kg,
     harga: "Rp65.000",
@@ -121,12 +124,11 @@ export const daftarProduct = [
     masaPenyimpanan: "12 Bulan",
     berat: "1000GR",
     stok: 30,
-    link: "https://wa.me/6289644439032?text=Hallo%20suka%20frozen%20saya%20ingin%20memesan%20kentang%20fiesta%201kg%20.%20.%20.",
   },
 
   {
     id: 8,
-    kategori: "kentang",
+    kategori: "lainnya",
     nama: "kentang 1KG",
     imgURL: kentangAviko1kg,
     harga: "Rp55.000",
@@ -138,6 +140,5 @@ export const daftarProduct = [
     masaPenyimpanan: "12 Bulan",
     berat: "1000GR",
     stok: 0,
-    link: "https://wa.me/6289644439032?text=Hallo%20suka%20frozen%20saya%20ingin%20memesan%20kentang%20aviko%201kg%20.%20.%20.",
   },
 ];

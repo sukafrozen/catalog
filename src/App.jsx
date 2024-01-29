@@ -4,6 +4,7 @@ import "../src/css/spacing.css";
 import "../src/css/animate.css";
 import "../src/css/style.css";
 import "../src/css/responsive.css";
+import "../src/css/custom.css";
 
 import "../src/js/bootstrap.bundle.min.js";
 import "../src/js/Font-Awesome.js";

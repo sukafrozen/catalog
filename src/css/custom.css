@@ -1,0 +1,33 @@
+.logo-frozen {
+  width: 200px !important;
+}
+
+.cart_badge span {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--colorWhite);
+  color: var(--colorPrimary);
+  line-height: 20px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 600;
+  top: 8px;
+  right: 297px;
+}
+
+.fp__menu_cart_area ul li .menu_cart_img img {
+  border-radius: 6px;
+}
+
+@media (max-width: 575.99px) {
+  .fp__topbar {
+    height: 60px !important;
+  }
+
+  .cart_badge span {
+    top: 8px;
+    right: 35px;
+  }
+}

@@ -9,7 +9,7 @@ const ListProduct = () => {
     { id: 0, category: "all" },
     { id: 1, category: "nugget" },
     { id: 2, category: "sosis" },
-    { id: 3, category: "kentang" },
+    { id: 3, category: "lainnya" },
   ];
   const [active, setActive] = useState(0);
   const [products] = useState(daftarProduct);
@@ -38,11 +38,6 @@ const ListProduct = () => {
               <div className="fp__section_heading mb_25">
                 <h4>List Product</h4>
                 <h2>Our Delicious Product</h2>
-
-                <p>
-                  Objectively pontificate quality models before intuitive information. Dramatically recaptiualize
-                  multifunctional materials.
-                </p>
               </div>
             </div>
           </div>
@@ -74,7 +69,7 @@ const ListProduct = () => {
                   <div className="fp__menu_item_img">
                     <img src={product.imgURL} alt="menu" className="img-fluid w-100" />
                     <a className="category" href="#">
-                      {product.kategori}
+                      {product.jenis}
                     </a>
                   </div>
                   <div className="fp__menu_item_text">
