@@ -61,11 +61,12 @@ const NavbarTop = () => {
                   </a>{" "}
                 </li>
 
-                <li className="cart_badge">
+                {/* Keranjang */}
+                {/* <li className="cart_badge">
                   <a className="cart_icon" onClick={handleClick}>
                     <i className="fas fa-shopping-basket"></i> <span>5</span>
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

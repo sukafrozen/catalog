@@ -2187,6 +2187,12 @@
     font-size: 14px;
   }
 
+  .fp__menu_item .fp__menu_item_text .title p {
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 2px;
+  }
+
   .fp__menu_item .fp__menu_item_text ul li a {
     margin: 0;
     padding: 2px 10px;
@@ -2975,5 +2981,6 @@
 
   .fp__menu_item .fp__menu_item_img {
     height: 220px;
+    width: fit-content;
   }
 }

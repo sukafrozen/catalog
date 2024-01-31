@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-// import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 // import { categoryProduct } from "../constants";
 import { daftarProduct } from "../constants";
 import ModalProduk from "./ModalProduk";
@@ -11,15 +11,20 @@ const ListProduct = () => {
     { id: 2, category: "sosis" },
     { id: 3, category: "lainnya" },
   ];
+
   const [active, setActive] = useState(0);
   const [products] = useState(daftarProduct);
   const [listProduct, setListProduct] = useState([]);
 
+  const shuffle = (arr) => [...arr].sort(() => Math.random() - 0.5);
+  const shuffleProduk = shuffle(products);
+
   const activeTab = (id, cat) => {
     setActive(id);
     const productData = products.filter((item) => item.kategori === cat);
+
     if (id === 0) {
-      setListProduct(products);
+      setListProduct(shuffleProduk);
     } else {
       setListProduct(productData);
     }
@@ -27,7 +32,7 @@ const ListProduct = () => {
 
   useEffect(() => {
     setActive(0);
-    setListProduct(daftarProduct);
+    setListProduct(shuffleProduk);
   }, []);
   return (
     <>
@@ -58,38 +63,43 @@ const ListProduct = () => {
             </div>
           </div>
 
-          <div className="row grid ">
-            {listProduct.map((product) => (
-              <div
-                key={product.id}
-                className="col-xl-3 col-6 col-lg-4 wow fadeInUp d-flex align-items-stretch"
-                data-wow-duration="1s"
-              >
-                <div className="fp__menu_item">
-                  <div className="fp__menu_item_img">
-                    <img src={product.imgURL} alt="menu" className="img-fluid w-100" />
-                    <a className="category" href="#">
-                      {product.jenis}
-                    </a>
+          <motion.div className="row grid" layout>
+            {listProduct.map((product, index) => (
+              <AnimatePresence key={index}>
+                <motion.div
+                  className="col-xl-3 col-6 col-lg-4 wow slideInLeft d-flex align-items-stretch"
+                  data-wow-duration="1"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 2 }}
+                >
+                  <div className="fp__menu_item">
+                    <div className="fp__menu_item_img">
+                      <img src={product.imgURL} alt="menu" className="img-fluid w-100" />
+                      <a className="category" href="#">
+                        {product.jenis}
+                      </a>
+                    </div>
+                    <div className="fp__menu_item_text">
+                      <a className="title" href="" data-bs-toggle="modal" data-bs-target={`#${product.key}`}>
+                        {product.jenis} <br />
+                        <p>{product.nama}</p>
+                      </a>
+                      <h5 className="price">{product.harga}</h5>
+                      <ul className="d-flex flex-wrap justify-content-center">
+                        <li>
+                          <a href="#" data-bs-toggle="modal" data-bs-target={`#${product.key}`}>
+                            Detail <i className="far fa-eye ms-1"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
-                  <div className="fp__menu_item_text">
-                    <a className="title" href="" data-bs-toggle="modal" data-bs-target={`#${product.key}`}>
-                      {product.merk} <br />
-                      {product.nama}
-                    </a>
-                    <h5 className="price">{product.harga}</h5>
-                    <ul className="d-flex flex-wrap justify-content-center">
-                      <li>
-                        <a href="#" data-bs-toggle="modal" data-bs-target={`#${product.key}`}>
-                          Detail <i className="far fa-eye ms-1"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+                </motion.div>
+              </AnimatePresence>
             ))}
-          </div>
+          </motion.div>
         </div>
       </section>
 
