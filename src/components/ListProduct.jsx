@@ -67,12 +67,13 @@ const ListProduct = () => {
             {listProduct.map((product, index) => (
               <AnimatePresence key={index}>
                 <motion.div
+                  key={index}
                   className="col-xl-3 col-6 col-lg-4 wow slideInLeft d-flex align-items-stretch"
-                  data-wow-duration="1"
+                  data-wow-duration="2"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
-                  transition={{ duration: 0.5 }}
+                  transition={{ duration: 1.5 }}
                 >
                   <div className="fp__menu_item">
                     <div className="fp__menu_item_img">
