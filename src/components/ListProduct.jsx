@@ -72,7 +72,7 @@ const ListProduct = () => {
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
-                  transition={{ duration: 2 }}
+                  transition={{ duration: 0.5 }}
                 >
                   <div className="fp__menu_item">
                     <div className="fp__menu_item_img">
