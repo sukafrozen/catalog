@@ -52,7 +52,7 @@ const ModalProduk = () => {
                           <button onClick={() => setQuantity(quantity - 1)} className="btn btn-danger">
                             <i className="fal fa-minus"></i>
                           </button>
-                          <input type="text" value={quantity} />
+                          <input type="text" value={quantity} readOnly />
                           <button
                             onClick={() => {
                               setQuantity(quantity + 1);

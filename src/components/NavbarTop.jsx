@@ -8,6 +8,7 @@ const NavbarTop = () => {
   const [isActive, setIsActive] = useState(false);
   const handleClick = () => {
     // 👇️ toggle isActive state on click
+
     setIsActive((current) => !current);
   };
 
@@ -34,11 +35,7 @@ const NavbarTop = () => {
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="https://wa.me/6289654980569?text=Hallo%20suka%20frozen%20saya%20ingin%20memesan%20.%20.%20.%20."
-                      target="_blank"
-                      rel="noreferrer"
-                    >
+                    <a href="https://wa.me/6289654980569?text=Hallo%20suka%20frozen%20saya%20ingin%20memesan%20.%20.%20.%20." target="_blank" rel="noreferrer">
                       <i className="fab fa-whatsapp"></i>+62 8965 4980 569
                     </a>
                   </li>
@@ -63,7 +60,7 @@ const NavbarTop = () => {
 
                 {/* Keranjang */}
                 {/* <li className="cart_badge">
-                  <a className="cart_icon" onClick={handleClick}>
+                  <a className="cart_icon" onClick={handleClick} style={{ cursor: "pointer" }}>
                     <i className="fas fa-shopping-basket"></i> <span>5</span>
                   </a>
                 </li> */}
@@ -96,7 +93,7 @@ const NavbarTop = () => {
                     <button onClick={() => setQuantity(quantity - 1)} className="btn btn-danger">
                       <i className="fal fa-minus"></i>
                     </button>
-                    <input type="text" value={quantity} />
+                    <input type="text" value={quantity} readOnly />
                     <button
                       onClick={() => {
                         setQuantity(quantity + 1);
