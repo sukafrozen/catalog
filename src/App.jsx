@@ -7,7 +7,7 @@ import "../src/css/responsive.css";
 import "../src/css/custom.css";
 
 import "../src/js/bootstrap.bundle.min.js";
-// import "../src/js/Font-Awesome.js";
+import "../src/js/Font-Awesome.js";
 import WOW from "wow.js";
 
 import NavbarTop from "./components/NavbarTop";
